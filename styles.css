@@ -1,0 +1,88 @@
+p.hello {
+    text-align: center; 
+  }
+
+
+
+.name { /* Requirement-2.C */
+    position: fixed; /* Requirement-2.15 */
+    top: 0;
+    left: 0;
+    width: 300px;
+    
+  }
+
+
+.space{ 
+    visibility: hidden; /* Requirement-2.16 */
+  }
+
+.hello{
+    font-size: 47px;  /* Requirement-2.1 */
+    color: blueviolet; /* Requirement-2.3 */
+    line-height: 110%;   /* Requirement-2.2 *//* Requirement-2.10 */
+    
+    
+}
+p.hi{ /* Requirement-2.A */
+    display: inline; /* Requirement-2.11 */
+}
+
+
+.intro{
+
+    background-color: burlywood; /* Requirement-2.4 */
+    border-style: groove; /* Requirement-2.5 */
+    margin-right: 130px;  /* Requirement-2.6 */
+    margin-left: 140px;  /* Requirement-2.9 */
+    max-height: 80px; /* Requirement-2.7 */
+    overflow: auto; /* Requirement-2.14 */
+
+
+}
+summary {/* Requirement-2.H */
+    
+    cursor: pointer;
+}
+
+details {/* Requirement-2.G */
+    padding: 15px;
+    background-color: lavender;
+    margin-bottom: 50px;
+}
+
+ul.series {
+    list-style-type: square; /* Requirement-2.8 */
+    
+}
+
+#caption{/* Requirement-2.D */
+    clear: right;  /* Requirement-2.13 */
+    color: darkblue;
+    
+}
+
+.Rosh{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1; /* Requirement-2.17 */
+}
+
+
+/* unvisited link */
+a:link {/* Requirement-2.E */
+    color: darkblue;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: plum;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: lightgreen;
+  }
+
+
